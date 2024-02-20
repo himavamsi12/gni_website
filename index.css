@@ -27,8 +27,9 @@
   font-size: 22px;
 }
 .banner-section-bg-container {
-  background-image: url("assessts/Burmous_Fest.jpeg");
+  background-image: url("assessts/Burmous_Fest2.png");
   height: 100vh;
+ 
   background-size: cover;
   width: auto;
 }
@@ -50,7 +51,7 @@
 }
 .custom-button {
   color: white;
-  background-image: linear-gradient(#DA4453, #89216B);
+  background-color: #FFE761;
   width: 130px;
   height: 45px;
   border-width: 0;
@@ -58,13 +59,13 @@
   margin-right: 10px;
 }
 .custom-outline-button {
-  color: #89216B;
+  color: #FFEA76;
   background-color: transparent;
   width: 150px;
   height: 45px;
   border-style: solid;
   border-width: 1px;
-  border-color: #89216B;
+  border-color: #FFEA76;
   border-radius: 8px;
 }
 .wcu-section {
@@ -149,11 +150,11 @@
 }
 
 .Venue-menu-section{
-  background-image: linear-gradient(#DA4453, #89216B);
+  background-color: #FFEA76;
   border-radius: 10px;
 }
 .healthy-food-section {
-    background-image: linear-gradient(#DA4453, #89216B);
+    background-color: #FFEA76;
     border-radius: 10px;
 }
 .healthy-food-section-img {
@@ -166,25 +167,25 @@
   font-weight: 700;
 }
 .healthy-food-section-description {
-  color: white;
+  color: black;
   font-family: "Roboto";
   font-size: 16px;
 }
 .delivery-and-payment-section {
-  background-image: linear-gradient(#953b7b,#d6354b);
+  background-color: #FFEA76;
   border-radius: 10px;
 }
 .delivery-and-payment-section-img {
   width: 270px;
 }
 .delivery-and-payment-section-heading {
-  color: black;
+  color: 183b56k;
   font-family: "Roboto";
   font-size: 28px;
   font-weight: 700;
 }
 .delivery-and-payment-section-description {
-  color: white;
+  color: black;
   font-family: "Roboto";
   font-size: 16px;
 }
@@ -238,7 +239,7 @@
   padding-left: 22px;
 }
 .icon {
-  color: #89216B;
+  color: #0d2436;
   font-size: 35px;
 }
 .footer-section {
@@ -440,4 +441,50 @@
     top: 50%;
     margin: 0 auto;
 }
+
+/* TIMER  */
+
+.li1 {
+  display: inline-block;
+  font-size: 20px;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #02094b;
+  margin-bottom: 20px;
+}
+
+.count-heading{
+  color: #02094b;
+  font-family: "ROBOTO";
+}
+
+.li1 .span3 {
+  display: block;
+  font-size: 4.5rem;
+}
+.span3 {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+.countdown{
+  text-align: center;
+  background-image: radial-gradient(#FFFFFF,#f6e9bc);
+  border-radius: 10px;
+}
+@media all and (max-width: 768px) {
+  
+  
+  .li1 {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  .li1 .span3 {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+
   
