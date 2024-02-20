@@ -1,27 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
 .food-munch-logo {
-  width: 150px;
-  height: 80px;
+  width: 160px;
+  height: 90px;
 }
 #navItem1 {
-  color: #323f4b;
+  color: white;
   font-family: "Roboto";
+  font-size: 22px;
 }
+
+
 #navItem2 {
-  color: #323f4b;
+  color: white;
   font-family: "Roboto";
+  font-size: 22px;
 }
 #navItem3 {
-  color: #323f4b;
+  color: white;
   font-family: "Roboto";
+  font-size: 22px;
 }
 #navItem4 {
-  color: #323f4b;
+  color: white;
   font-family: "Roboto";
+  font-size: 22px;
 }
 .banner-section-bg-container {
-  background-image: url("assessts/Gnu_image.jpeg");
+  background-image: url("assessts/Burmous_Fest.jpeg");
   height: 100vh;
   background-size: cover;
   width: auto;
@@ -33,18 +39,18 @@
   font-weight: bold;
 }
 .span1{
-    color: #3a85ee;
+    color: #89216B;
     font-family:cursive ;
 }
 .banner-caption {
   color: #f5f7fa;
-  font-family: "Roboto";
+  font-family: Comic Sans 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 29px;
   font-weight: bolder;
 }
 .custom-button {
   color: white;
-  background-image: linear-gradient(#3a85ee, #2163c0);
+  background-image: linear-gradient(#DA4453, #89216B);
   width: 130px;
   height: 45px;
   border-width: 0;
@@ -52,17 +58,17 @@
   margin-right: 10px;
 }
 .custom-outline-button {
-  color: white;
+  color: #89216B;
   background-color: transparent;
-  width: 130px;
+  width: 150px;
   height: 45px;
   border-style: solid;
   border-width: 1px;
-  border-color: #3a85ee;
+  border-color: #89216B;
   border-radius: 8px;
 }
 .wcu-section {
-  background-color: #f9fbfe;
+  background-image: radial-gradient(#FFFFFF,#f6e9bc);
 }
 .wcu-section-heading {
   color: #183b56;
@@ -105,7 +111,7 @@
   font-weight: 600;
 }
 .explore-menu-section {
-  background-color: white;
+  background-image: radial-gradient(#FFFFFF,#f6e9bc);
 }
 .menu-section-heading {
   color: #183b56;
@@ -113,6 +119,15 @@
   font-size: 28px;
   font-weight: 700;
 }
+
+.venue-section-heading{
+  color: black;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+
 .menu-item-image {
   border-radius: 16px;
 }
@@ -132,8 +147,14 @@
 .menu-item-card {
   border-radius: 16px;
 }
+
+.Venue-menu-section{
+  background-image: linear-gradient(#DA4453, #89216B);
+  border-radius: 10px;
+}
 .healthy-food-section {
-    background-image: linear-gradient(#fff8db, #fae38c);
+    background-image: linear-gradient(#DA4453, #89216B);
+    border-radius: 10px;
 }
 .healthy-food-section-img {
   width: 270px;
@@ -145,24 +166,25 @@
   font-weight: 700;
 }
 .healthy-food-section-description {
-  color: #5a7184;
+  color: white;
   font-family: "Roboto";
   font-size: 16px;
 }
 .delivery-and-payment-section {
-  background-color: white;
+  background-image: linear-gradient(#953b7b,#d6354b);
+  border-radius: 10px;
 }
 .delivery-and-payment-section-img {
   width: 270px;
 }
 .delivery-and-payment-section-heading {
-  color: #183b56;
+  color: black;
   font-family: "Roboto";
   font-size: 28px;
   font-weight: 700;
 }
 .delivery-and-payment-section-description {
-  color: #5a7184;
+  color: white;
   font-family: "Roboto";
   font-size: 16px;
 }
@@ -194,7 +216,8 @@
   font-weight: 800;
 }
 .follow-us-section {
-  background-color: white;
+  background-image: radial-gradient(#FFFFFF,#f6e9bc);
+  border-radius: 10px;
 }
 .follow-us-section-heading {
   text-align: center;
@@ -215,7 +238,7 @@
   padding-left: 22px;
 }
 .icon {
-  color: #d0b200;
+  color: #89216B;
   font-size: 35px;
 }
 .footer-section {
@@ -353,7 +376,68 @@
 
 
 
-
-
+  .btn-one {
+    color: #FFF;
+    transition: all 0.3s;
+    position: relative;
+  }
+  .btn-one span {
+    transition: all 0.3s;
+  }
+  .btn-one::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgba(255,255,255,0.5);
+    border-bottom-color: rgba(255,255,255,0.5);
+    transform: scale(0.1, 1);
+  }
+  .btn-one:hover span {
+    letter-spacing: 2px;
+  }
+  .btn-one:hover::before {
+    opacity: 1; 
+    transform: scale(1, 1); 
+  }
+  .btn-one::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    
+  }
+  .btn-one:hover::after {
+    opacity: 0; 
+    transform: scale(0.1, 1);
+  }
   
+  #confetti{
+    
+	  left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+  }
+
+  #myModal .modal-dialog {
+    -webkit-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    top: 50%;
+    margin: 0 auto;
+}
   
